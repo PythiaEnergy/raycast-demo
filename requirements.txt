@@ -1,0 +1,8 @@
+numpy
+xarray
+ubiops
+netCDF4
+python-dotenv
+requests
+ipykernel
+matplotlib
