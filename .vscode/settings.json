@@ -1,0 +1,26 @@
+{
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/cache**": true,
+        "**/.ipynb_checkpoints": true,
+        "**/.ruff_cache": true,
+        "**/.pytest_cache": true,
+        "**/.mypy_cache": true,
+    },
+    "search.exclude": {
+        "**/__pycache__": true,
+        "**/cache**": true,
+        "**/.ipynb_checkpoints": true,
+        "**/.ruff_cache": true,
+        "**/.pytest_cache": true,
+        "**/.mypy_cache": true,
+    },
+    "files.watcherExclude": {
+        "**/__pycache__/**": true,
+        "**/cache**/**": true,
+        "**/.ipynb_checkpoints/**": true,
+        "**/.ruff_cache/**": true,
+        "**/.pytest_cache/**": true,
+        "**/.mypy_cache/**": true,
+    }
+}

@@ -1,0 +1,38 @@
+,station,name,lat,lon
+0,215_S_a,Voorschoten stralingsmeter,52.139722,4.436389
+1,235_S_obs,De Kooy waarneemterrein,52.926944,4.781111
+2,240_S_18Ct,Schiphol locatie 18Ct,52.317222,4.789722
+3,240_S_ISAD,Schiphol locatie AssenDelft,52.317222,4.789722
+4,240_S_ISMU,Schiphol locatie Muiden,52.317222,4.789722
+5,240_S_ISNK,Schiphol locatie Nieuwkoop,52.317222,4.789722
+6,240_S_ISNV,Schiphol locatie Nieuw Vennep,52.317222,4.789722
+7,249_S_a,Berkhout,52.642778,4.978889
+8,251_S_a,Hoorn Terschelling,53.391111,5.345833
+9,257_S_a,Wijk aan Zee,52.505278,4.603056
+10,260_S_a,De Bilt,52.098889,5.179722
+11,261_S_a,De Bilt test locatie A,52.1,5.183333
+12,267_S_a,Stavoren,52.896667,5.383333
+13,269_S_23t,Lelystad locatie 23t,52.457222,5.519722
+14,270_S_a,Leeuwarden locatie A,53.223056,5.751667
+15,273_S_a,Marknesse,52.701944,5.8875
+16,275_S_a,Deelen locatie A,52.054722,5.872222
+17,277_S_a,Lauwersoog,53.411667,6.199167
+18,278_S_a,Heino,52.434444,6.258889
+19,279_S_a,Hoogeveen,52.748889,6.573056
+20,280_S_23t,Eelde locatie 23t,53.123611,6.584722
+21,283_S_a,Hupsel,52.067778,6.656667
+22,286_S_a,Nieuw Beerta,53.194444,7.149167
+23,290_S_a,Twenthe locatie A,52.273056,6.890833
+24,310_S_a,Vlissingen locatie A,51.441389,3.595833
+25,319_S_a,Westdorpe,51.224722,3.861111
+26,323_S_a,Wilhelminadorp,51.530278,3.894167
+27,330_S_a,Hoek van Holland,51.991111,4.121667
+28,344_S_24t,Rotterdam locatie 24t,51.960556,4.446944
+29,348_S_a,Cabauw,51.969167,4.925833
+30,350_S_a,Gilze-Rijen locatie A,51.565,4.935278
+31,356_S_a,Herwijnen,51.857778,5.145278
+32,370_S_a,Eindhoven locatie A,51.449722,5.376944
+33,375_S_a,Volkel locatie A,51.658333,5.706667
+34,377_S_a,Ell,51.196667,5.7625
+35,380_S_22t,Maastricht locatie 22t,50.905278,5.761944
+36,391_S_a,Arcen,51.497222,6.196111

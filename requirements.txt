@@ -2,7 +2,8 @@ numpy
 xarray
 ubiops
 netCDF4
-python-dotenv
+h5netcdf
 requests
 ipykernel
 matplotlib
+python-dotenv
