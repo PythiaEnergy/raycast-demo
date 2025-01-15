@@ -29,6 +29,12 @@
   }
 </style>
 
+---
+title: "RayCast"
+description: | 
+    Documentation
+---
+
 Welcome to the technical website for RayCast. Here you’ll find information on our innovative approach for solar irradiance forecasting. With RayCast we are working minimzing intraday imbalance volumes by building predictions with the highest accuracy possible. Driven by our combination of cutting-edge AI models and access to novel data sources. 
 
 This website is designed for technical and non-technical users that are considering using the API of RayCast. This website contains the following topics: 
