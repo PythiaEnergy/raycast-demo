@@ -7,15 +7,22 @@ name: Quarto Publish
 
 jobs:
   build-deploy:
+    
     runs-on: ubuntu-latest
+    # You need these permissions to publish to GitHub pages
+    
     permissions:
       contents: write
+      pages: write
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
