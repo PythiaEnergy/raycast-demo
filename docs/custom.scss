@@ -1,0 +1,271 @@
+/*-- scss:functions --*/
+/*-- From Julia Silge's vetiver site: https://github.com/rstudio/vetiver.rstudio.com/blob/55690889e4510c1ecc735f58417f9599b5457cb8/custom.scss --*/
+
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Text:wght@400&display=swap');
+
+.text-style {
+    font: 400 1.5rem / 2.75rem "Google Sans Text", Helvetica, Arial, sans-serif;
+}
+
+.h3 {
+    margin-top: 1,5rem;
+    margin-bottom: 1,5rem;
+}
+
+//
+// Color system
+//
+$white: #fff !default;
+$black: #000 !default;
+
+$sandstone-blue: #325d88 !default;
+$sandtracer-yellow: #FBF1CF !default;
+$sandtracer-green-light: #5A9C96 !default; 
+$sandtracer-green-dark: #1F6F65 !default;
+$sandtracer-dark: #343A40 !default;
+$bluegray: #c7d3e0 !default;
+$darker-green: #5a7a2b !default;
+$light-gray: #f1f3f5 !default;
+$mid-gray: #75776d !default;
+$darker-gray: #687178 !default;
+
+// Navbar
+$navbar-bg: $sandtracer-yellow !default;
+$navbar-fg: $sandtracer-green-dark !default;
+$navbar-hl: $sandtracer-dark !default;
+
+// Links
+$link-color: $black !default;  // Set link color to black
+
+// Code blocks
+$code-block-bg: $light-gray !default;
+
+/* -- scss:mixins --*/
+
+/*-- scss:rules --*/
+
+/* Navbar height and font adjustments */
+.navbar {
+    height: 100px; /* Adjust to make the navbar taller */
+    background-color: $navbar-bg; /* Set background color */
+}
+
+/* Background color for the expanded (mobile) navbar */
+.navbar-collapse {
+    background-color: $navbar-bg; /* Set this to match or complement your navbar */
+}
+
+/* Optional: Adjust the color for mobile nav items if needed */
+.navbar-collapse .nav-link {
+    color: $navbar-fg; /* Set link color in mobile navbar */
+}
+
+// /* Optional: Add border or shadow to make the mobile navbar stand out */
+// .navbar-collapse {
+//     border-top: 1px solid $mid-gray;
+//     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+// }
+
+/* Navbar link styling */
+.navbar .navbar-brand,
+.navbar-nav .nav-link {
+    font-size: 1.25rem;
+    // line-height: 100px;
+    font-weight: 600;
+    color: $navbar-fg;
+    padding-left: 0.5rem;  /* Adjust as needed */
+    padding-right: 0.5rem; /* Adjust as needed */
+}
+
+/* Bold navbar items on hover or active without shifting */
+.navbar .navbar-brand:hover,
+.navbar-nav .nav-link:hover,
+.navbar .navbar-brand:focus,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link.active {
+    color: $navbar-hl;
+    // text-shadow: 0px 0px 1px currentColor;
+}
+
+/* Adjust the logo size */
+.navbar .navbar-brand img {
+    max-height: 60px; /* Adjust this to make the logo larger */
+}
+
+// Table of Contents (TOC) items color
+/* Override TOC link colors */
+.toc a,
+.toc .nav-link {
+    color: $black;  /* Set TOC link color to black */
+}
+
+.toc a:hover,
+.toc .nav-link:hover {
+    color: $darker-gray; /* Optional: darker color on hover */
+}
+
+
+/* Specific styling for the collapsed (mobile) navbar */
+@media (max-width: 992px) {  /* Adjust breakpoint if needed */
+    .toc .nav-link {
+        padding-top: 0.25rem; /* Reduce vertical padding */
+        padding-bottom: 0.25rem; /* Reduce vertical padding */
+        font-size: 1rem; /* Optional: Adjust font size */
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid $mid-gray;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }    
+}
+
+.letter {
+    margin: 1em 0;
+    border: 1px solid gray;
+    border-radius: 10px;
+    // border-left: 5px solid $sandtracer-green-dark; 
+
+  }
+
+  .letter-header p {
+    margin-left: 0em;
+    padding-left:  40px;
+    padding-top:  5px;
+    padding-bottom: 0.1em;
+    color: black;
+    background-color: $sandtracer-yellow;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;    
+    font-size: 1em;    
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    background-image: url("images/file-line-icon.png");
+  }  
+
+  .letter-container {
+    padding-top: 5px;
+    padding-left: 10px;
+    color: black;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+  }
+
+
+  // CUSTOM HTML COMPONENTS VEGA-ALTAIR
+
+  #vg-tooltip-element.vg-tooltip {
+    font-size: 14px;
+}
+
+/* .cell-output-display {
+	margin: auto;
+} */
+
+.vega-embed {
+	flex-direction: column !important;
+}
+
+.page-columns .column-screen {
+    grid-column: body-content-start / body-content-end;
+    
+}
+
+input[type="range"] {
+    width: 100%;
+    margin: 5.75px 0;
+    background-color: transparent;
+    -webkit-appearance: none;
+  }
+
+input[type="range"]:focus {
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background: $sandtracer-green-light;
+    border: 0.2px solid $sandtracer-green-dark;
+    border-radius: 25px;
+    width: 100%;
+    height: 26.5px;
+    cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    margin-top: -5.95px;
+    width: 45px;
+    height: 38px;
+    background: $sandtracer-yellow;
+    border: 3.1px solid $sandtracer-green-dark;
+    border-radius: 16px;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+input[type="range"]:focus::-webkit-slider-runnable-track {
+    background: $sandtracer-green-light;
+}
+
+input[type="range"]::-moz-range-track {
+    background: $sandtracer-green-light;
+    border: 0.2px solid $sandtracer-green-dark;
+    border-radius: 25px;
+    width: 100%;
+    height: 26.5px;
+    cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 45px;
+    height: 38px;
+    background: $sandtracer-yellow;
+    border: 3.1px solid $sandtracer-green-dark;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+input[type="range"]::-ms-track {
+    background: transparent;
+    border-color: transparent;
+    border-width: 6.65px 0;
+    color: transparent;
+    width: 100%;
+    height: 26.5px;
+    cursor: pointer;
+}
+
+input[type="range"]::-ms-fill-lower {
+    background: $sandtracer-green-dark;
+    border: 0.2px solid $sandtracer-green-dark;
+    border-radius: 50px;
+}
+
+input[type="range"]::-ms-fill-upper {
+    background: $sandtracer-green-light;
+    border: 0.2px solid $sandtracer-green-dark;
+    border-radius: 50px;
+}
+
+input[type="range"]::-ms-thumb {
+    width: 45px;
+    height: 38px;
+    background: $sandtracer-yellow;
+    border: 3.1px solid $sandtracer-green-dark;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-top: 0px;
+    /*Needed to keep the Edge thumb centred*/
+}
+
+input[type="range"]:focus::-ms-fill-lower {
+    background: $sandtracer-green-light;
+}
+
+input[type="range"]:focus::-ms-fill-upper {
+    background: $sandtracer-green-light;
+}
+
+div > label {
+    width:100%
+}

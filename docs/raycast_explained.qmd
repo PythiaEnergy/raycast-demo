@@ -1,0 +1,14 @@
+---
+title: "RayCast explained"
+description: |
+  RayCast empowers you to minimize intraday imbalance volumes with highly accurate short-term forecasts. Our focus is on delivering precise, real-time information for the entire Netherlands, ensuring you receive the insights you need as quickly as possible.
+---
+
+#### Quantile approach
+Most competitors in the market provide deterministic solar irradiance forecasts, which are straightforward to use but often oversimplified and unrealistic. As a professional in this field, you know that forecasts are rarely, if ever, entirely accurate. The critical question is: by how much are they off? With our probabilistic approach, we offer insights into the uncertainty surrounding solar irradiance predictions. This enables you to make more informed, risk-aware decisions.
+
+#### Precision
+Our approach allows us to achieve exceptional precision, delivering forecasts with a grid resolution of 4 x 6 km² for every location in the Netherlands. This level of detail is made possible by combining satellite data with our expertise in weather analysis and advanced algorithms. Compared to most competitors, this has significantly higher resolution, enabling you to access highly localized forecasts tailored to your specific location.
+
+### Speed
+Most solar irradiance forecasting products are designed for day-ahead planning, relying on numerical weather predictions that perform adequately for longer-term forecasts. However, these models are not ideal for short-term predictions. That’s where we come in. Our forecasts bridge this gap, providing highly accurate predictions up to 6 hours ahead, delivered in 15-minute intervals. This enables you to effectively mitigate short-term risks and make more informed decisions.

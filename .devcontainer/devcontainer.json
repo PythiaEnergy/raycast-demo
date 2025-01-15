@@ -19,10 +19,11 @@
 
 		"vscode": {
 			"extensions": [
-        		"github.copilot",
+				"github.copilot",
 				"github.vscode-github-actions",
-				"ms-python.python",	
-				"ms-toolsai.jupyter"
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"quarto.quarto"
 			]
 
 	}

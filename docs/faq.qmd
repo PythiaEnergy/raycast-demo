@@ -1,0 +1,14 @@
+---
+title: "Frequently Asked Questions"
+description: |
+  This page gathers important questions and answers from clients and users. 
+---
+
+#### **I can’t use probabilistic values in my business yet, what to do? 
+Answer X
+
+#### **Can I do a historical analysis with your data?
+Answer X
+
+#### **Did you compare it with other data sources like Harmonie and ICON?  
+Answer X

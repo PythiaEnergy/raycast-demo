@@ -1,0 +1,44 @@
+<center>
+  <a>
+    <img src="images/sandtracer.png" alt="Sand Tracer banner" class="banner" />
+  </a>
+  <a>
+    <img src="images/sandtracer_vertical.png" alt="Sand Tracer banner" class="banner-vertical" />
+  </a>
+</center>
+
+<style>
+  .banner-vertical {
+    display: none; /* Hide vertical image by default */
+  }
+
+  @media (max-width: 600px) {
+    .banner {
+      display: none; /* Hide normal image on small screens */
+    }
+    .banner-vertical {
+      display: block; /* Show vertical image on small screens */
+      width: 100%; /* Responsive width */
+      max-width: 250px; /* Max width for vertical image */
+    }
+  }
+
+  @media (min-width: 601px) {
+    .banner {
+      display: block; /* Show normal image on larger screens */
+      width: 100%; /* Responsive width */
+      max-width: 600px; /* Max width for normal image */
+    }
+  }
+</style>
+
+Welcome to the technical website for RayCast. Here you’ll find information on our innovative approach for solar irradiance forecasting. With RayCast we are working minimzing intraday imbalance volumes by building predictions with the highest accuracy possible. Driven by our combination of cutting-edge AI models and access to novel data sources. 
+
+This website is designed for technical and non-technical users that are considering using the API of RayCast. This website contains the following topics: 
+
+<ul>
+    <li><a href="/getting_started.html">Getting Started</a> - a step by step guide on how to use the API. 
+    <li><a href="/raycast_explained.html">RayCast explained</a> - information about our unique algorithm. 
+    <li><a href="/faq.html">FAQ</a> - your first aid kit for using RayCast</li>
+    <li><a href="/contact.html">Contact</a> - want to have a demo? 
+</ul>
