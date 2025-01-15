@@ -20,7 +20,7 @@ $white: #fff !default;
 $black: #000 !default;
 
 $sandstone-blue: #325d88 !default;
-$sandtracer-yellow: #FBF1CF !default;
+$sandtracer-yellow: #ffffff !default;
 $sandtracer-green-light: #5A9C96 !default; 
 $sandtracer-green-dark: #1F6F65 !default;
 $sandtracer-dark: #343A40 !default;
@@ -141,7 +141,7 @@ $code-block-bg: $light-gray !default;
     background-size: 15px;
     background-repeat: no-repeat;
     background-position: 15px center;
-    background-image: url("images/file-line-icon.png");
+    // background-image: url("images/file-line-icon.png");
   }  
 
   .letter-container {

@@ -5,32 +5,34 @@ project:
     - "!notebooks/"
 
 website:
-  title: "Sand Tracer"
+  title: "RayCast"
   site-url: https://PythiaEnergy.github.io/raycast-demo/
   favicon: images/logo_pythia.png
   
-  page-footer: 
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)"
-    left: "&copy; 2024 HKV. All rights reserved."
+  # page-footer: 
+  #   right: "This page is built with ❤️ and [Quarto](https://quarto.org/)"
+  #   left: "&copy; 2024 HKV. All rights reserved."
  
   navbar:
     logo: images/logo_pythia.png
     background: "#FBF1CF"
     foreground: "#1F6F65"
-    href: https://hkv-products-services.github.io/SandTracer/
+    href: https://PythiaEnergy.github.io/raycast-demo/
     left:
     - text: "Getting Started"
-      href: getting_started.qmd    
+      href: getting_started.qmd   
     - text: "RayCast explained"
       href: raycast_explained.qmd
     - text: "FAQ" 
       href: faq.qmd
+    - text: "Contact" 
+      href: contact.qmd
     right:
     - icon: github
       href: https://github.com/PythiaEnergy/raycast-demo
 
 format:
-  live-html:
+  html:
     theme: [custom.scss]
     toc: true
     toc-title: Contents

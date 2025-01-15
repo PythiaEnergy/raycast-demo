@@ -1,9 +1,6 @@
 <center>
   <a>
-    <img src="images/sandtracer.png" alt="Sand Tracer banner" class="banner" />
-  </a>
-  <a>
-    <img src="images/sandtracer_vertical.png" alt="Sand Tracer banner" class="banner-vertical" />
+    <img src="images/logo_pythia.png" alt="Sand Tracer banner" class="banner-vertical" />
   </a>
 </center>
 
@@ -37,8 +34,8 @@ Welcome to the technical website for RayCast. Here you’ll find information on 
 This website is designed for technical and non-technical users that are considering using the API of RayCast. This website contains the following topics: 
 
 <ul>
-    <li><a href="/getting_started.html">Getting Started</a> - a step by step guide on how to use the API. 
-    <li><a href="/raycast_explained.html">RayCast explained</a> - information about our unique algorithm. 
+    <li><a href="/getting_started.html">Getting Started</a> - a step by step guide on how to use the API.</li>
+    <li><a href="/raycast_explained.html">RayCast explained</a> - information about our unique algorithm.</li>
     <li><a href="/faq.html">FAQ</a> - your first aid kit for using RayCast</li>
-    <li><a href="/contact.html">Contact</a> - want to have a demo? 
+    <li><a href="/contact.html">Contact</a> - want to have a demo?</li>
 </ul>
