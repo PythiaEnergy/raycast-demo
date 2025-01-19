@@ -5,8 +5,8 @@ project:
     - "!notebooks/"
 
 website:
-  title: "RayCast"
-  site-url: www.raycast.nl
+  title: ""
+  site-url: https://PythiaEnergy.github.io/raycast-demo/
   favicon: images/logo_pythia.png
   
   # page-footer: 
