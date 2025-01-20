@@ -29,7 +29,11 @@ website:
       href: contact.qmd
     right:
     - icon: github
-      href: https://github.com/PythiaEnergy/raycast-demo
+      menu:
+        - text: Source code
+          href: https://github.com/PythiaEnergy/raycast-demo
+        - text: Report a Bug
+          href: mailto:info@pythia-energy.nl
 
 format:
   html:

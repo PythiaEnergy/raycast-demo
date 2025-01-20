@@ -6,11 +6,12 @@ description: |
 
 #### Step 1: Register and get API key.
 
+[Register](mailto:info@pythia-energy.nl) to get an account. 
+ 
 #### Step 2: understand API endpoints
--	Get to know the available endpoints. Detailed information can be found [here].
+-	Get to know the available endpoints. Detailed information can be found [here](http://apiv2.raycast.nl).
 -	In short, we provide two types of endpoints: one for specific locations and another for the entire grid of the Netherlands.
-o	POST / irradiance: get data within a specific time interval
-o	
+
 
 #### Step 3: Make your first API call
 
