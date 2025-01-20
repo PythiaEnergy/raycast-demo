@@ -1,5 +1,5 @@
 ---
-title: "Getting Started"
+title: "Get Started"
 description: | 
     Use RayCast for short-term solar irradiance forecasting. Find more documentation here
 ---

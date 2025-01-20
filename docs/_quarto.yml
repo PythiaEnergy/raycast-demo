@@ -19,8 +19,8 @@ website:
     foreground: "#1F6F65"
     href: https://PythiaEnergy.github.io/raycast-demo/
     left:
-    - text: "Getting Started"
-      href: getting_started.qmd   
+    - text: "Get Started"
+      href: get_started.qmd   
     - text: "RayCast explained"
       href: raycast_explained.qmd
     - text: "FAQ" 

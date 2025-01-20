@@ -7,6 +7,9 @@ description: |
 ### Quantile approach
 Most competitors in the market provide deterministic solar irradiance forecasts, which are straightforward to use but often oversimplified and unrealistic. As a professional in this field, you know that forecasts are rarely, if ever, entirely accurate. The critical question is: by how much are they off? With our probabilistic approach, we offer insights into the uncertainty surrounding solar irradiance predictions. This enables you to make more informed, risk-aware decisions.
 
+![](images/uncertainty.png)
+
+
 ### Precision
 Our approach allows us to achieve exceptional precision, delivering forecasts with a grid resolution of 4 x 6 km² for every location in the Netherlands. This level of detail is made possible by combining satellite data with our expertise in weather analysis and advanced algorithms. Compared to most competitors, this has significantly higher resolution, enabling you to access highly localized forecasts tailored to your specific location.
 

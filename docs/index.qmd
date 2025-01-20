@@ -30,17 +30,16 @@
 </style>
 
 ---
-title: "Welcome"
-description: | 
-    Documentation
+title: "Maximize the potential of your renewables"
+description: |
 ---
 
-Welcome to the technical website for RayCast. Here you’ll find information on our innovative approach for solar irradiance forecasting. With RayCast we are working minimzing intraday imbalance volumes by building predictions with the highest accuracy possible. Driven by our combination of cutting-edge AI models and access to novel data sources. 
+Welcome to the technical website for RayCast. Here you’ll find information on our innovative approach for solar irradiance forecasting. With RayCast we are working on minimzing intraday imbalance volumes by building predictions with the highest accuracy possible. Driven by our combination of cutting-edge AI models and access to novel data sources. 
 
 This website is designed for technical and non-technical users that are considering using the API of RayCast. This website contains the following topics: 
 
 <ul>
-    <li><a href="/getting_started.html">Getting Started</a> - a step by step guide on how to use the API.</li>
+    <li><a href="/get_started.html">Get Started</a> - a step by step guide on how to use the API.</li>
     <li><a href="/raycast_explained.html">RayCast explained</a> - information about our unique algorithm.</li>
     <li><a href="/faq.html">FAQ</a> - your first aid kit for using RayCast</li>
     <li><a href="/contact.html">Contact</a> - want to have a demo?</li>

@@ -5,6 +5,6 @@ description: |
 ---
 Give us a call or send a message to get in touch
 
-* Telefoon: +316 21202609
+* Phone: +316 21202609
 * Email: info@pythia-energy.nl
-* Website: pythia-energy.nl
+* Visit our [website](https://pythia-energy.nl)
