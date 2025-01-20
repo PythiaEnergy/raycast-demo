@@ -141,11 +141,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/PythiaEnergy/raycast-demo"> <i class="bi bi-github" role="img">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bi-github" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-github" role="img">
 </i> 
-<span class="menu-text"></span></a>
+ <span class="menu-text"></span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-bi-github">    
+        <li>
+    <a class="dropdown-item" href="https://github.com/PythiaEnergy/raycast-demo">
+ <span class="dropdown-text">Source code</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="mailto:info@pythia-energy.nl">
+ <span class="dropdown-text">Report a Bug</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -192,12 +204,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="step-1-register-and-get-api-key." class="level4">
 <h4 class="anchored" data-anchor-id="step-1-register-and-get-api-key.">Step 1: Register and get API key.</h4>
+<p><a href="mailto:info@pythia-energy.nl">Register</a> to get an account.</p>
 </section>
 <section id="step-2-understand-api-endpoints" class="level4">
 <h4 class="anchored" data-anchor-id="step-2-understand-api-endpoints">Step 2: understand API endpoints</h4>
 <ul>
-<li>Get to know the available endpoints. Detailed information can be found [here].</li>
-<li>In short, we provide two types of endpoints: one for specific locations and another for the entire grid of the Netherlands. o POST / irradiance: get data within a specific time interval o</li>
+<li>Get to know the available endpoints. Detailed information can be found <a href="http://apiv2.raycast.nl">here</a>.</li>
+<li>In short, we provide two types of endpoints: one for specific locations and another for the entire grid of the Netherlands.</li>
 </ul>
 </section>
 <section id="step-3-make-your-first-api-call" class="level4">
