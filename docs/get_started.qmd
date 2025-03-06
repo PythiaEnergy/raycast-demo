@@ -75,7 +75,7 @@ print(headers)
 3.  Make a request
 ```python
 data = json.dumps({
-    "val_datetime":"2024-11-20T12:00:00Z"
+    "forecast_datetime":"2024-11-20T12:00:00Z"
 })
 
 response=requests.post(

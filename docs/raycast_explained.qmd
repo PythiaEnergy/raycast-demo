@@ -13,7 +13,7 @@ Most competitors in the market provide deterministic solar irradiance forecasts,
 ### Precision
 Our approach allows us to achieve high precision, delivering forecasts with a grid resolution of 4 x 6 km² for every location in the Netherlands. This level of detail is made possible by combining satellite data with our expertise in weather analysis and advanced algorithms. Compared to most competitors, this has significantly higher resolution, enabling you to access highly localized forecasts tailored to your specific location.
 
-![](images/raycast_precision.svg)
+![](images/precision.svg)
 
 ### Speed
 Most solar irradiance forecasting products are designed for day-ahead planning, relying on numerical weather predictions that perform adequately for longer-term forecasts. However, these models are not ideal for short-term predictions. That’s where we come in. Our forecasts bridge this gap, providing highly accurate predictions up to 6 hours ahead, delivered in 15-minute intervals. This enables you to effectively mitigate short-term risks and make more informed decisions.
