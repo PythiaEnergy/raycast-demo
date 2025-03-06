@@ -9,7 +9,7 @@ description: |
 [Register](mailto:info@pythia-energy.nl) to get an account. 
  
 #### Step 2: understand API endpoints
--	Get to know the available endpoints. Detailed information can be found [here](http://apiv2.raycast.nl).
+-	Get to know the available endpoints. Detailed information can be found [here](http://api.raycast.nl).
 -	In short, we provide two types of endpoints: one for specific locations and another for the entire grid of the Netherlands.
 
 
@@ -75,11 +75,11 @@ print(headers)
 3.  Make a request
 ```python
 data = json.dumps({
-    "forecast_datetime":"2024-11-20T12:00:00Z"
+    "forecast_datetime":"2025-01-01T12:00:00Z"
 })
 
 response=requests.post(
-    "https://apiv2.raycast.nl/irradiance", 
+    "https://api.raycast.nl/irradiance", 
     headers=headers, 
     data=data
 )
@@ -89,4 +89,4 @@ with open ('output.nc','wb') as f:
 ```
 
 #### Step 4: integrate the API into your application
--	Choose your preferred programming language (e.g., Python, JavaSCript, Java, etc.)
+-	Choose your preferred programming language (e.g., Python, Rust etc.)
