@@ -1,0 +1,87 @@
+---
+title: "MQTT"
+description: | 
+    Use MQTT to get notifications when new forecasts are available
+---
+
+#### Step 1: Get a username and password.
+
+To use the MQTT service, you'll first need to register and receive your credentials.
+
+1. Get a username and password by contacting us at [info@pythia-energy.nl](mailto:info@pythia-energy.nl)
+2. You'll receive a **username** and **password** — save these securely.
+
+Continue to the next step once you have your credentials.
+
+
+#### Example: Connect to the MQTT broker and receive messages
+
+```python
+
+from paho.mqtt import client as mqtt_client
+import random
+import ssl
+import json 
+
+broker = "mqtt.pythia-energy.nl"
+port = 8883
+topic = "raycast/#"
+client_id = f'python-mqtt-{random.randint(0, 1000)}'
+username = "your-username"
+password = "your-password"
+
+connected = False  # Global flag
+
+def on_connect(client, userdata, flags, rc, properties=None):
+    global connected
+    if rc == 0:
+        print("✅ Connected to MQTT Broker!")
+        connected = True
+        client.subscribe(topic)
+        print(f"📡 Subscribed to topic `{topic}`")
+    else:
+        print(f"❌ Failed to connect, return code {rc}")
+
+def on_message(client, userdata, msg):
+    print(f"\n📥 Received message on topic `{msg.topic}`")
+    try:
+        payload = json.loads(msg.payload.decode())
+        print(json.dumps(payload, indent=2))
+    except json.JSONDecodeError:
+        print(f"⚠️ Raw message: {msg.payload.decode()}")
+
+def connect_mqtt():
+    client = mqtt_client.Client(
+        client_id=client_id,
+        protocol=mqtt_client.MQTTv5
+    )
+
+    client.tls_set(tls_version=ssl.PROTOCOL_TLSv1_2)
+    client.tls_insecure_set(True)
+
+    client.username_pw_set(username, password)
+    client.on_connect = on_connect
+    client.on_message = on_message
+    client.connect(broker, port)
+    return client
+
+def run():
+    client = connect_mqtt()
+    client.loop_forever()
+
+if __name__ == "__main__":
+    run()
+
+```
+
+#### Messsage format
+
+Here’s an example of a message you might receive:
+
+```json
+{
+  "type": "forecast",
+  "parameter": "global horizontal irradiance",
+  "forecast_datetime": "2025-01-01T12:00:00Z"
+}
+```

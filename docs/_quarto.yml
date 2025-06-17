@@ -25,6 +25,8 @@ website:
       href: raycast_explained.qmd
     - text: "FAQ" 
       href: faq.qmd
+    - text: "MQTT"
+      href: mqtt.qmd
     - text: "Contact" 
       href: contact.qmd
     right:

@@ -269,3 +269,16 @@ input[type="range"]:focus::-ms-fill-upper {
 div > label {
     width:100%
 }
+
+/* MQTT message box */
+.mqtt-message {
+    background-color: $sandtracer-yellow;
+    border: 1px solid $sandtracer-green-light;
+    border-radius: 8px;
+    padding: 1rem;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.95rem;
+    color: $darker-gray;
+    margin-top: 1rem;
+    white-space: pre-wrap;
+}
