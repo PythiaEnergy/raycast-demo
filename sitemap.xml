@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>www.raycast.nl/raycast_explained.html</loc>
-    <lastmod>2025-03-06T20:16:36.275Z</lastmod>
-  </url>
-  <url>
-    <loc>www.raycast.nl/get_started.html</loc>
-    <lastmod>2025-03-06T20:16:36.275Z</lastmod>
-  </url>
-  <url>
-    <loc>www.raycast.nl/contact.html</loc>
-    <lastmod>2025-03-06T20:16:36.274Z</lastmod>
-  </url>
-  <url>
-    <loc>www.raycast.nl/faq.html</loc>
-    <lastmod>2025-03-06T20:16:36.275Z</lastmod>
+    <lastmod>2025-06-17T11:01:59.338Z</lastmod>
   </url>
   <url>
     <loc>www.raycast.nl/index.html</loc>
-    <lastmod>2025-03-06T20:16:36.275Z</lastmod>
+    <lastmod>2025-06-17T11:01:59.338Z</lastmod>
+  </url>
+  <url>
+    <loc>www.raycast.nl/faq.html</loc>
+    <lastmod>2025-06-17T11:01:59.337Z</lastmod>
+  </url>
+  <url>
+    <loc>www.raycast.nl/contact.html</loc>
+    <lastmod>2025-06-17T11:01:59.337Z</lastmod>
+  </url>
+  <url>
+    <loc>www.raycast.nl/get_started.html</loc>
+    <lastmod>2025-06-17T11:01:59.337Z</lastmod>
+  </url>
+  <url>
+    <loc>www.raycast.nl/mqtt.html</loc>
+    <lastmod>2025-06-17T11:01:59.338Z</lastmod>
   </url>
 </urlset>
